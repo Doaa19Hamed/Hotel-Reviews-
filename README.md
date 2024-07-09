@@ -1,7 +1,20 @@
-Hotel Recommendation Model Using Visitor Status and Sentiment Analysis
+"Hotel Reviews Analysis and Predictive Modeling"
 
-Abstract: 
+Objective: Analyzed and processed hotel review data to predict average scores using machine learning techniques.
 
-After conducting an in-depth analysis of the data gaining valuable insights, we decided to shift our focus to developing a model that predicts suitable hotels for visitors based on their marital status (single or married). We utilized Natural Language Processing (NLP) techniques to analyze and verify positive and negative reviews before feeding them into the model, ensuring high-quality input data. 
+Tools and Technologies: PySpark, Python (pandas, numpy, seaborn, matplotlib), Jupyter Notebook.
 
-The entire project was implemented using PySpark.
+Data Processing:
+Loaded and explored a dataset of hotel reviews using PySpark.
+Dropped unnecessary columns to streamline the dataset.
+Checked and handled missing values and duplicate entries.
+Performed label encoding on categorical variables such as 'Hotel_Name', 'Hotel_Address', 'Room_Type', and more.
+Feature Engineering:
+Assembled selected features into a single vector using VectorAssembler.
+Split data into training and testing sets.
+
+Modeling:
+
+Implemented a Linear Regression model to predict the average score of hotels.
+Created a pipeline to streamline the machine-learning process.
+Evaluated the model's performance using Mean Squared Error (MSE).
